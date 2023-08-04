@@ -27,5 +27,5 @@ Armed with these valuable findings, we aim to implement robust risk mitigation s
 ## References
 - [Prosper About.](https://www.prosper.com/plp/about/contact-us/)
 - [Prosper Loan Data Project on Kaggle.](https://www.kaggle.com/jschnessl/prosperloans)
-- [Repo on the same project.](https://github.com/grace-pehl/ProsperLoan) 
-- A lot of fun googling to figure out how to do stuff.
+- [Repo on the same project.](https://github.com/jubins/Tableau-Projects) 
+
