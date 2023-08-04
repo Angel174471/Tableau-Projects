@@ -11,23 +11,21 @@ The Prosper loan data set contains 113,937 loans with 81 variables on each loan,
 - [Prosper Loan Data - VariableDefinitions](https://github.com/jubins/Tableau-Projects/blob/master/ProsperLoanData/data/ProsperLoanData-VariableDefinitions.csv)
 
 #### Summary
-In peer-to-peer lending, there are three main stakeholders: borrowers, lenders and the company itself. In my Tableau story I have done exploration on the relationship between these people, what affects borrowers Prosper Score and who defaults the most. First, I have done a time series analysis ranging from year 2007 – 2014 about the number of loans taken by borrowers, the amount of their loans and how their ProsperScore got affected in this duration. I noticed that since 2009, the loan business increased and climbed up quickly since 2013 and then dropped down at beginning of 2014 while the borrower credit scores constantly dropping over this time and some states having default rates more than 30%.
-Then I have explored the defaulters, reason for defaults, and reason for borrowers to take loan, I found out that the people with $0 income have highest default rates and most defaulters invest in the loan type ‘D’. Breaking down to occupation-wise, an interesting pattern was found that the college student group which are enrolled in higher grade studies have more loans, higher borrower and default rates. While this made sense with $0 income, the sophomore students were the top defaulters and having lower number of loans. Lastly, I have looked at the incomes and losses on different loan ratings – the ‘HR’ loan rating had the highest loss even though this type of loan is given to most credit-worthy borrowers. However, looking at the net principal returns over the time I noticed loans C&D had highest losses than other loans and are most risky.
+My Tableau story dives deep into the dynamics among the key stakeholders in peer-to-peer lending: borrowers, lenders, and our company. Through a comprehensive time series analysis from 2007 to 2014, I uncovered crucial insights about loan trends, borrower credit scores, and default rates.
+Since 2009, the loan business has seen significant growth, peaking in 2013, but it experienced a decline in early 2014. Concurrently, borrowers' credit scores showed a consistent downward trend over this period, while some states faced default rates surpassing 30%.
+Further exploration focused on defaulters, reasons for defaults, and borrowers' motivations. Strikingly, individuals with $0 income exhibited the highest default rates, with a preference for investing in 'D' rated loans. A unique pattern emerged among college students enrolled in higher-grade studies, who had more loans and higher borrower and default rates. Surprisingly, sophomore students stood out as the top defaulters despite having fewer loans.
+Additionally, I delved into incomes and losses based on different loan ratings. Astonishingly, the 'HR' loan rating, typically given to credit-worthy borrowers, incurred the highest losses. Moreover, loans rated C and D displayed the highest losses, signifying their higher risk levels.
+Armed with these valuable findings, we aim to implement robust risk mitigation strategies, fostering a secure and rewarding experience for lenders and borrowers on our peer-to-peer money market platform. For a comprehensive understanding of the insights, please explore the Tableau visualizations and results presented in the story.
 
-- You can view final version of my [Prosper Loan Data Story](https://public.tableau.com/profile/jubin.soni#!/vizhome/ProsperLoanData_7/ProsperLoanStory-Version2) by clicking on image below:
 
-[![visualization image](https://github.com/jubins/Tableau-Projects/blob/master/ProsperLoanData/data/pld_screenshot.png)](https://public.tableau.com/profile/jubin.soni#!/vizhome/ProsperLoanData_7/ProsperLoanStory-Version2)
+- You can view final version of my [Prosper Loan Data Story](https://public.tableau.com/app/profile/angel.atungire/viz/DataPresentation-Lab_16911469010710/Sheet8?publish=yes) by clicking on image below:
 
-- Version 1 of my Tableau story can be viewed by clicking on below image:
+[![visualization image](https://public.tableau.com/app/profile/angel.atungire/viz/DataPresentation-Lab_16911469010710/Sheet8?publish=yes)](https://public.tableau.com/app/profile/angel.atungire/viz/DataPresentation-Lab_16911469010710/Sheet8?publish=yes)
 
-[![visualization image](https://github.com/jubins/Tableau-Projects/blob/master/ProsperLoanData/data/pld_screenshot_v1.png)](https://public.tableau.com/profile/jubin.soni#!/vizhome/ProsperLoanData_Version1/ProsperLoanStory-Version1)
 
 
 ## References
 - [Prosper About.](https://www.prosper.com/plp/about/contact-us/)
 - [Prosper Loan Data Project on Kaggle.](https://www.kaggle.com/jschnessl/prosperloans)
 - [Repo on the same project.](https://github.com/grace-pehl/ProsperLoan) 
-- [MIT page showing stats usage on same project.](http://courses.media.mit.edu/2008fall/mas622j/Projects/CharlieCocoErnestoMatt/data/)
-- [Udacity Tableau Course.](https://www.udacity.com/course/data-visualization-in-tableau--ud1006)
-- [Tableau Tutorials.](https://www.tableau.com/learn/training)
-- A lot of googling to figure out how to do stuff.
+- A lot of fun googling to figure out how to do stuff.
